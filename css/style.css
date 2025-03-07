@@ -48,7 +48,7 @@ main > .bg-blue{
 }
 
 .bg-purple{
-  height: 100px;
+  height: 140px;
   width: 350px;
   background-color: darkmagenta;
 }
@@ -78,6 +78,7 @@ main > .bg-blue{
   width: 200px;
   background-color: rgb(240, 147, 240);
   flex-wrap: wrap;
+  border-width: 1px;
   
 }
 .bg-grey.first{
@@ -87,7 +88,8 @@ main > .bg-blue{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:row-reverse
+  flex-direction:row-reverse;
+  border-width: 1px;
 }
 
 .bg-white.second{
@@ -97,7 +99,8 @@ main > .bg-blue{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:row-reverse
+  flex-direction:row-reverse;
+  border-width: 1px;
 }
 
 main > .bg-grey{
