@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+.header{
+  width: auto;
+  height: 80px;
+  background-color: aquamarine;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+  background-color: chocolate;
+  align-items: center;
+  width: 800px;
+  height: 50px;
+  border-style: dashed; 
+  
+  display: flex;
+  justify-content: center;
+  
+
+  
+}
+
+div{
+  
+  height: 20px;
+  width: 50px;
+  
+  display: inline-block;
+}
+
+.div1, .div3{
+  flex-grow: 1;
+  
+}
+.div2{
+  flex-grow: 3;
+}
