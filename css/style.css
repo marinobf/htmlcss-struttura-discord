@@ -99,3 +99,18 @@ main > .bg-blue{
   align-items: center;
   flex-direction:row-reverse
 }
+
+main > .bg-grey{
+  width: auto;
+  height: 240px;
+  background-color: rgb(194, 197, 200);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.bg-green{
+  height: 200px;
+  width: 500px;
+  background-color: rgb(14, 101, 39);
+}
