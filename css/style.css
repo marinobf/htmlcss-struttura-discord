@@ -31,14 +31,14 @@ div{
   background-color: chocolate;
 }
 
-.div1, .div3{
+.logo, .login{
   flex-grow: 1;
 }
-.div2{
+.link{
   flex-grow: 3;
 }
 
-.section1{
+main > .bg-blue{
   width: auto;
   height: 170px;
   background-color: rgb(28, 4, 245);
@@ -47,13 +47,13 @@ div{
   align-items: center;
 }
 
-div.pink1{
+.bg-purple{
   height: 100px;
   width: 500px;
   background-color: darkmagenta;
 }
 
-.section2{
+.bg-white.first{
   width: auto;
   height: 170px; 
   background-color: aliceblue;
@@ -63,23 +63,39 @@ div.pink1{
   flex-direction: row;
 }
 
-.cont{
-  width: 500px;
-  height: 100px;
-  display: flex;
-}
-.blue1{
+.bg-blue{
   height: 100px;
   width: 300px;
   background-color: rgb(88, 134, 213);
   flex-wrap: wrap;
+  flex-direction: row;
+  
   
   
 }
-.pink2{
+.bg-pink{
   height: 100px;
   width: 200px;
   background-color: rgb(240, 147, 240);
   flex-wrap: wrap;
   
+}
+.bg-grey.first{
+  width: auto;
+  height: 170px; 
+  background-color: rgb(194, 197, 200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row-reverse
+}
+
+.bg-white.second{
+  width: auto;
+  height: 170px; 
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row-reverse
 }
