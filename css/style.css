@@ -6,7 +6,7 @@
 
 .header{
   width: auto;
-  height: 80px;
+  height: 50px;
   background-color: aquamarine;
   justify-content: center;
   display: flex;
@@ -14,31 +14,43 @@
 }
 
 .menu{
-  background-color: chocolate;
+  
   align-items: center;
   width: 800px;
   height: 50px;
-  border-style: dashed; 
-  
   display: flex;
   justify-content: center;
-  
-
-  
 }
 
 div{
-  
-  height: 20px;
+  height: 30px;
   width: 50px;
-  
+  border-style: dashed;
+  border-width: 2px;
   display: inline-block;
+  background-color: chocolate;
 }
 
 .div1, .div3{
   flex-grow: 1;
-  
 }
 .div2{
   flex-grow: 3;
+}
+
+.pink{
+  width: auto;
+  height: 170px;
+  background-color: rgb(28, 4, 245);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+div.pink1{
+  height: 100px;
+  width: 600px;
+  background-color: darkmagenta;
+  
+  
 }
