@@ -125,7 +125,6 @@ main > .bg-grey{
   display: flex;
   justify-content: center;
   border-style: solid;
-  border-width: 2px;
   border-bottom-color: aliceblue;
   align-items: center;
 }
@@ -141,6 +140,7 @@ main > .bg-grey{
 .bg-flesh{
   height: 150px;
   width: 140px;
+  border-width: 3px;
 }
 
 .bg-black-footer{
@@ -150,6 +150,7 @@ main > .bg-grey{
   justify-content: center;
   display: flex;
   align-items: center;
+
 }
 .bg-sky-footer{
   height: 40px;
