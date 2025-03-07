@@ -38,7 +38,7 @@ div{
   flex-grow: 3;
 }
 
-.pink{
+.section1{
   width: auto;
   height: 170px;
   background-color: rgb(28, 4, 245);
@@ -49,8 +49,37 @@ div{
 
 div.pink1{
   height: 100px;
-  width: 600px;
+  width: 500px;
   background-color: darkmagenta;
+}
+
+.section2{
+  width: auto;
+  height: 170px; 
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.cont{
+  width: 500px;
+  height: 100px;
+  display: flex;
+}
+.blue1{
+  height: 100px;
+  width: 300px;
+  background-color: rgb(88, 134, 213);
+  flex-wrap: wrap;
   
+  
+}
+.pink2{
+  height: 100px;
+  width: 200px;
+  background-color: rgb(240, 147, 240);
+  flex-wrap: wrap;
   
 }
