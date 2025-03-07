@@ -16,7 +16,7 @@
 .menu{
   
   align-items: center;
-  width: 800px;
+  width: 500px;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -49,7 +49,7 @@ main > .bg-blue{
 
 .bg-purple{
   height: 100px;
-  width: 500px;
+  width: 350px;
   background-color: darkmagenta;
 }
 
@@ -153,4 +153,18 @@ main > .bg-grey{
   width: 500px;
   background-color: aquamarine;
   border-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left{
+  height: 13px;
+  width: 30px;
+  background-color: palevioletred; 
+}
+.right{
+  height: 13px;
+  width: 30px;
+  background-color: palevioletred;
 }
