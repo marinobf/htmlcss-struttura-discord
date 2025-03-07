@@ -121,8 +121,10 @@ main > .bg-grey{
   background-color: black;
   display: flex;
   justify-content: center;
-  border-style: dashed;
-  border-width: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-bottom-color: aliceblue;
+  align-items: center;
 }
 .container{
   display: flex;
@@ -136,4 +138,19 @@ main > .bg-grey{
 .bg-flesh{
   height: 150px;
   width: 140px;
+}
+
+.bg-black-footer{
+   width: auto;
+  height: 50px;
+  background-color: black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.bg-sky-footer{
+  height: 40px;
+  width: 500px;
+  background-color: aquamarine;
+  border-width: 1px;
 }
